@@ -1,5 +1,4 @@
-﻿<title>MoYi</title>
-<template>
+﻿<template>
   <v-app>
     <v-navigation-drawer color="pink lighten-3" expand-on-hover miniVariant app dark permanent>
       <v-list nav dense class="py-0">
