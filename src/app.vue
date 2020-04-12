@@ -1,6 +1,6 @@
 ﻿<template>
   <v-app style="background: url(https://random.52ecy.cn/randbg.php);background-size: cover;background-attachment: fixed;">
-    <v-navigation-drawer color="rgba(244, 143, 177, 0.8)" expand-on-hover miniVariant app dark permanent style="backdrop-filter: blur(10px);">
+    <v-navigation-drawer color="rgba(244, 143, 177, 0.75)" expand-on-hover miniVariant app dark permanent style="backdrop-filter: blur(10px);">
       <v-list nav dense class="py-0">
         <v-list-item two-line class="px-0">
           <v-list-item-avatar>
