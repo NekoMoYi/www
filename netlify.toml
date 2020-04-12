@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/*"
+  to = "https://moyi.ml"
+  status = 301
+  force = true
+  conditions = {Country = ["cn"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
