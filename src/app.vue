@@ -1,10 +1,10 @@
 ﻿<template>
   <v-app style="background: url(https://random.52ecy.cn/randbg.php);background-size: cover;background-attachment: fixed;">
-    <v-navigation-drawer color="pink lighten-3" expand-on-hover miniVariant app dark permanent>
+    <v-navigation-drawer color="rgba(244, 143, 177, 0.8)" expand-on-hover miniVariant app dark permanent style="backdrop-filter: blur(10px);">
       <v-list nav dense class="py-0">
         <v-list-item two-line class="px-0">
           <v-list-item-avatar>
-            <img src="http://q1.qlogo.cn/g?b=qq&nk=1254846416&s=640">
+            <img src="https://q1.qlogo.cn/g?b=qq&nk=1254846416&s=640">
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>MoYi</v-list-item-title>
@@ -27,12 +27,7 @@
         <router-view></router-view>
       </v-container>
     </v-content>
-    <div class="background" ref="background">
-      <div class="layer">
-        <div class="background-img"/>
-      </div>
-    </div>
-    <v-footer class="font-weight-medium" padless>
+    <v-footer class="font-weight-medium" padless dark color="rgba(245, 245, 245, 0.2)">
       <v-col class="text-center" cols="12">
         {{ new Date().getFullYear() }} — &copy;moyiljx
       </v-col>

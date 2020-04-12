@@ -2,7 +2,7 @@
   <v-container fluid grid-list-md>
     <v-row justify="center">
       <v-col cols="12" sm="6" md="4">
-        <v-card color="#1976D2c0" dark>
+        <v-card color="#1976D2c0" dark style="backdrop-filter: blur(10px);">
           <v-card-title>
             <div class="fill-width">
               <div class="text-uppercase font-italic font-weight-light subtitle-1">WELCOME</div>
