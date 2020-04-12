@@ -34,7 +34,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'index.html',
       inject: true,
-      favicon:'../static/favicon.ico'
+      favicon:'./../static/favicon.ico'
     }),
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
     new webpack.DefinePlugin({
