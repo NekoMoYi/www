@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://cn.moyi.ml"
+  to = "https://moyi.ml"
   status = 301
   force = true
   conditions = {Country = ["cn"]}
