@@ -1,5 +1,5 @@
 <template style="overflow-y: hidden;">
-  <v-app style="background: url(https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php);background-size: cover;background-attachment: fixed;overflow-y: hidden;">
+  <v-app style="background: url(https://api.btstu.cn/sjbz/?lx=dongman);background-size: cover;background-attachment: fixed;overflow-y: hidden;">
     <v-navigation-drawer color="rgba(244, 143, 177, 0.75)" expand-on-hover miniVariant app dark permanent style="backdrop-filter: blur(10px);">
       <v-list nav dense class="py-0">
         <v-list-item two-line class="px-0">
