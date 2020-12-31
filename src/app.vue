@@ -1,5 +1,5 @@
-﻿<template style="overflow-y: hidden;">
-  <v-app style="background: url(https://random.52ecy.cn/randbg.php);background-size: cover;background-attachment: fixed;overflow-y: hidden;">
+<template style="overflow-y: hidden;">
+  <v-app style="background: url(https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php);background-size: cover;background-attachment: fixed;overflow-y: hidden;">
     <v-navigation-drawer color="rgba(244, 143, 177, 0.75)" expand-on-hover miniVariant app dark permanent style="backdrop-filter: blur(10px);">
       <v-list nav dense class="py-0">
         <v-list-item two-line class="px-0">
@@ -13,9 +13,9 @@
         </v-list-item>
         <v-divider></v-divider>
           <v-list-item v-for="item in items" :key="item.title" :to="item.to" link>
-            <v-list-item-icon>
-              <v-icon>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
+            <v-list-item-avatar tile size="24px">
+              <v-icon>{{ item.avatar }}</v-icon>
+            </v-list-item-avatar>
             <v-list-item-content>
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item-content>
@@ -40,7 +40,10 @@ export default {
   name: 'App',
   data: () => ({
     items: [
-      { title: '首页', to: '/', icon: 'fa-home' }
+      { title: 'Home', to: '/', avatar: 'mdi-home' },
+      { title: 'Status', to: '/status', avatar: 'mdi-traffic-light' },
+      //{ title: 'Study', to: '/study', avatar: 'mdi-school' },
+      { title: 'About', to: '/about', avatar: 'mdi-account-circle' }
     ]
   })
 }
