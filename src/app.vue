@@ -22,11 +22,11 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-content>
+    <v-main>
       <v-container>
         <router-view></router-view>
       </v-container>
-    </v-content>
+    </v-main>
     <v-footer class="font-weight-medium" padless dark color="rgba(245, 245, 245, 0.2)">
       <v-col class="text-center" cols="12">
         {{ new Date().getFullYear() }} — &copy;moyiljx
@@ -42,7 +42,6 @@ export default {
     items: [
       { title: 'Home', to: '/', avatar: 'mdi-home' },
       { title: 'Status', to: '/status', avatar: 'mdi-traffic-light' },
-      //{ title: 'Study', to: '/study', avatar: 'mdi-school' },
       { title: 'About', to: '/about', avatar: 'mdi-account-circle' }
     ]
   })

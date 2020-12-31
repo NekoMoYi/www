@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '../views/home.vue'
-import about from '../views/about.vue'
-import status from '../views/status.vue'
-import error404 from '../views/error404.vue'
-//import study from '../views/study.vue' 
+const home = () => import('../views/home')
+const about = () => import('../views/about')
+const status = () => import('../views/status')
+const error404 = () => import('../views/error404')
 
 Vue.use(Router)
 
@@ -29,11 +28,6 @@ export default new Router({
       component: about
     },
     // 404
-    /*{
-      path: '/study',
-      name: 'study',
-      component: study
-    },*/
     {
       path: '*',
       name: 'error404',
