@@ -22,11 +22,11 @@
           </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-main>
+    <v-content>
       <v-container>
         <router-view></router-view>
       </v-container>
-    </v-main>
+    </v-content>
     <v-footer class="font-weight-medium" padless dark color="rgba(245, 245, 245, 0.2)">
       <v-col class="text-center" cols="12">
         {{ new Date().getFullYear() }} — &copy;moyiljx
