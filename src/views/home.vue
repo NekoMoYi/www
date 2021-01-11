@@ -25,7 +25,7 @@
               <v-list-item-content>
                 <v-list-item-title>BLOG</v-list-item-title>
                 <v-list-item-subtitle>
-                  build with hexo
+                  build with Typecho
                 </v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
