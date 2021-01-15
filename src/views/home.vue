@@ -6,7 +6,7 @@
           <v-card-title>
             <div class="fill-width">
               <div class="text-uppercase font-italic font-weight-light subtitle-1">WELCOME</div>
-              <div class="text-right display-1 font-weight-thin">NekoMoYi<br>.COM</div>
+              <div class="text-right display-1 font-weight-thin">NekoMoYi.COM</div>
             </div>
           </v-card-title>
         </v-card>
