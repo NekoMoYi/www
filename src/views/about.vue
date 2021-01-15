@@ -6,7 +6,7 @@
           <v-card-title>ME</v-card-title>
           <v-divider/>
           <v-list color="transparent">
-            <v-list-item v-for="about in abouts" :key="about.content" :href="about.href">
+            <v-list-item v-for="about in abouts" :key="about.content" :href="about.href" target="_blank">
               <v-list-item-avatar>
                 <v-icon>{{ about.avatar }}</v-icon>
               </v-list-item-avatar>
@@ -24,7 +24,7 @@
           <v-card-title>CONTACT</v-card-title>
           <v-divider/>
           <v-list color="transparent">
-            <v-list-item v-for="contact in contacts" :key="contact.content" :href="contact.href">
+            <v-list-item v-for="contact in contacts" :key="contact.content" :href="contact.href" target="_blank">
               <v-list-item-avatar>
                 <v-icon>{{ contact.avatar }}</v-icon>
               </v-list-item-avatar>
