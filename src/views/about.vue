@@ -67,14 +67,14 @@ export default {
       {avatar: 'mdi-cake', content: '2004-5', href: '/#/about'}
     ],
     contacts: [
-      {avatar: 'mdi-email', content: '1254846416@qq.com', href: 'mailto:1254846416@qq.com'},
+      {avatar: 'mdi-email', content: 'funny_mo_yi@foxmail.com', href: 'mailto:funny_mo_yi@foxmail.com'},
       {avatar: 'mdi-qqchat', content: '1254846416', href: 'tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1254846416&website=www.oicqzone.com'},
       {avatar: 'mdi-steam', content: 'mo_yi', href: 'https://steamcommunity.com/id/mo_yi/'},
       {avatar: 'mdi-telegram', content: 'mo_yi', href: 'https://t.me/mo_yi'}
     ],
     codes: [
-      {avatar: 'mdi-github', content: 'Github', subtitle: 'moyiljx', href: 'https://github.com/moyiljx'},
-      {avatar: 'mdi-git', content: 'Gitee', subtitle: 'moyiljx', href: 'https://gitee.com/moyiljx'}
+      {avatar: 'mdi-github', content: 'Github', subtitle: 'NekoMoYi', href: 'https://github.com/NekoMoYi'},
+      {avatar: 'mdi-git', content: 'Gitee', subtitle: 'NekoMoYi', href: 'https://gitee.com/NekoMoYi'}
     ]
   })
 }
