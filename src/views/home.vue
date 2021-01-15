@@ -6,7 +6,7 @@
           <v-card-title>
             <div class="fill-width">
               <div class="text-uppercase font-italic font-weight-light subtitle-1">WELCOME</div>
-              <div class="text-right display-1 font-weight-thin">MOYI.ML</div>
+              <div class="text-right display-1 font-weight-thin">NekoMoYi.COM</div>
             </div>
           </v-card-title>
         </v-card>
@@ -18,7 +18,7 @@
           <v-card-title>SITES</v-card-title>
           <v-divider/>
           <v-list color="transparent">
-            <v-list-item href="https://blog.moyi.ml/" target="_blank">
+            <v-list-item href="https://blog.nekomoyi.com/" target="_blank">
               <v-list-item-avatar tile>
                 <v-img :src="require('@/assets/blog.png')" contain/>
               </v-list-item-avatar>
@@ -40,7 +40,7 @@
 export default {
   name: 'home',
   data: () => ({
-    host: 'moyi.ml'
+    host: 'nekomoyi.'
   })
 }
 
