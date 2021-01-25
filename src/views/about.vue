@@ -73,7 +73,7 @@ export default {
       {avatar: 'mdi-telegram', content: 'mo_yi', href: 'https://t.me/mo_yi'}
     ],
     codes: [
-      {avatar: 'mdi-github', content: 'Github', subtitle: 'NekoMoYi', href: 'https://github.com/NekoMoYi'},
+      {avatar: 'mdi-git', content: 'Github', subtitle: 'NekoMoYi', href: 'https://github.com/NekoMoYi'},
       {avatar: 'mdi-git', content: 'Gitee', subtitle: 'NekoMoYi', href: 'https://gitee.com/NekoMoYi'}
     ]
   })
