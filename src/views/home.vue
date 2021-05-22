@@ -29,6 +29,17 @@
                 </v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
+            <v-list-item href="https://dev2dev.pages.dev/" target="_blank">
+              <v-list-item-avatar tile>
+                <v-icon>{{ dev2dev }}</v-icon>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title>Dev2Dev</v-list-item-title>
+                <v-list-item-subtitle>
+                  Visit Another Developer.
+                </v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
         </v-card>
       </v-col>
@@ -37,10 +48,13 @@
 </template>
 
 <script>
+const dev2dev =
+  'M11.84,19V16.41l2.34-.36v-.28H1V13.59h15.9l2.69-1.5v-.21L17,10.38H1V8.2H14.23V8l-2.39-.38V5L23,11.27V12.7Z'
+
 export default {
   name: 'home',
   data: () => ({
-    host: 'nekomoyi.'
+    dev2dev
   })
 }
 
